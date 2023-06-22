@@ -1,3 +1,5 @@
+from Py_Pro_Decor.main import logger
+import os
 # 1 Задание:
 
 class FlatIterator:
@@ -46,8 +48,8 @@ def test_1():
 
 
 
-if __name__ == '__main__':
-    test_1()
+# if __name__ == '__main__':
+#     test_1()
 
 # 2 Задание:
 
@@ -59,7 +61,9 @@ def flat_generator(list_of_lists):
         for l in list:
             yield l
 
-
+if os.path.exists('log_file.log'):
+        os.remove('log_file.log')
+@logger('log_file.log')
 def test_2():
 
     list_of_lists_1 = [
@@ -80,5 +84,5 @@ def test_2():
     assert isinstance(flat_generator(list_of_lists_1), types.GeneratorType)
 
 
-# if __name__ == '__main__':
-#     test_2()
+if __name__ == '__main__':
+    test_2()

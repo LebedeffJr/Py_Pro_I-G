@@ -1,0 +1,10 @@
+2023-06-18 17:18:50, name_function - hello_world, arguments - (), {}, result - Hello World
+2023-06-18 17:18:50, name_function - summator, arguments - (2, 2), {}, result - 4
+2023-06-18 17:18:50, name_function - summator, arguments - (2, 2), {}, result - 4
+2023-06-18 17:18:50, name_function - div, arguments - (6, 2), {}, result - 3.0
+2023-06-18 17:18:50, name_function - div, arguments - (6, 2), {}, result - 3.0
+2023-06-18 17:18:50, name_function - div, arguments - (6, 2), {}, result - 3.0
+2023-06-18 17:18:50, name_function - summator, arguments - (4.3,), {'b': 2.2}, result - 6.5
+2023-06-18 17:18:50, name_function - summator, arguments - (4.3,), {'b': 2.2}, result - 6.5
+2023-06-18 17:18:50, name_function - summator, arguments - (4.3,), {'b': 2.2}, result - 6.5
+2023-06-18 17:18:50, name_function - summator, arguments - (4.3,), {'b': 2.2}, result - 6.5
